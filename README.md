@@ -8,9 +8,21 @@ Welcome to my Django portfolio repository! This repository houses a collection o
 
 | Project Name | Description | Status |
 | :--- | :--- | :--- |
-| **[myproject](./myproject)** | Initial Django setup and practice application. | 🟢 Active / Running |
+| **[Word Counter](./Word_Counter)** | Django-powered live word, character, and reading-time counter. | 🟢 Active |
 
 *(New projects will be added here as I build them!)*
+
+## Running Word Counter
+
+Run these commands from the `Word_Counter` directory:
+
+```powershell
+py manage.py check
+py manage.py test
+py manage.py runserver
+```
+
+For deployment, set `DJANGO_DEBUG=false`, provide a persistent `DJANGO_SECRET_KEY`, and configure `DJANGO_ALLOWED_HOSTS`.
 
 ---
 
